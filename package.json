@@ -1,0 +1,17 @@
+{
+  "name": "cascade-zero-policies",
+  "version": "1.0.0",
+  "description": "Protect Cascade Zero approval and risk guards from direct coding-tool edits.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build:pack": "failproofai publish ./recovery-guards.mjs --repo KA-1205/cascade-zero-policies --version 1.0.0 --dry-run"
+  },
+  "keywords": [],
+  "author": "Kartik Arora",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "failproofai": "1.0.12"
+  },
+  "private": true
+}

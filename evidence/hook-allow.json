@@ -1,0 +1,17 @@
+{
+  "test_type": "Direct real CLI hook invocation; not a live Claude session",
+  "input": {
+    "session_id": "cascade-zero-policy-hook-test",
+    "cwd": "/workspace/scratch/3c6590c124fd/policy-sandbox",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Edit",
+    "tool_input": {
+      "file_path": "/workspace/scratch/3c6590c124fd/policy-sandbox/README.md",
+      "old_string": "return True",
+      "new_string": "return False"
+    }
+  },
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": ""
+}

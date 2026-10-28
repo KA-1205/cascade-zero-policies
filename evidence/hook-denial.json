@@ -1,0 +1,17 @@
+{
+  "test_type": "Direct real CLI hook invocation; not a live Claude session",
+  "input": {
+    "session_id": "cascade-zero-policy-hook-test",
+    "cwd": "/workspace/scratch/3c6590c124fd/policy-sandbox",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Edit",
+    "tool_input": {
+      "file_path": "/workspace/scratch/3c6590c124fd/policy-sandbox/backend/api/__init__.py",
+      "old_string": "return True",
+      "new_string": "return False"
+    }
+  },
+  "exit_code": 0,
+  "stdout": "{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"deny\",\"permissionDecisionReason\":\"Blocked Edit by failproofai because: Cascade Zero protects backend/api/__init__.py. Do not modify its approval or risk guards with coding tools. Write a proposed patch in a separate review document and request human review; keep the existing guards active., as per the policy configured by the user\"}}",
+  "stderr": ""
+}

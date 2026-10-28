@@ -1,0 +1,9 @@
+
+Built KA-1205/cascade-zero-policies@1.0.0 — 1 policies, 1 on by default.
+  /workspace/scratch/3c6590c124fd/cascade-zero-policies/dist-pack/failproofai-pack.json
+  /workspace/scratch/3c6590c124fd/cascade-zero-policies/dist-pack/failproofai-pack.mjs
+  /workspace/scratch/3c6590c124fd/cascade-zero-policies/dist-pack/SHA256SUMS
+
+Nothing was published: name a repository to release it on.
+  failproofai publish --repo <owner>/<repo>
+

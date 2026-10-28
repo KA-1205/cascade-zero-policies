@@ -1,0 +1,38 @@
+✔ registers an installable default-enabled PreToolUse policy (2.004083ms)
+✔ Write denies backend/api/__init__.py (0.487695ms)
+✔ Edit denies backend/api/__init__.py (0.212912ms)
+✔ MultiEdit denies backend/api/__init__.py (0.109485ms)
+✔ Write denies backend/ai/planner.py (0.116403ms)
+✔ Edit denies backend/ai/planner.py (0.119288ms)
+✔ MultiEdit denies backend/ai/planner.py (0.113847ms)
+✔ Write denies backend/ai/policy.py (0.100242ms)
+✔ Edit denies backend/ai/policy.py (1.120421ms)
+✔ MultiEdit denies backend/ai/policy.py (0.322718ms)
+✔ Write denies backend/coordinator/__init__.py (0.235981ms)
+✔ Edit denies backend/coordinator/__init__.py (0.251604ms)
+✔ MultiEdit denies backend/coordinator/__init__.py (0.061089ms)
+✔ Write denies backend/risk/__init__.py (0.036078ms)
+✔ Edit denies backend/risk/__init__.py (0.058494ms)
+✔ MultiEdit denies backend/risk/__init__.py (0.61732ms)
+✔ normalizes /repo/cascade-zero/backend/api/__init__.py (0.228154ms)
+✔ normalizes C:\work\cascade-zero\backend\risk\__init__.py (0.057204ms)
+✔ normalizes ./backend/ai/../api/__init__.py (0.163934ms)
+✔ normalizes api/__init__.py (0.048169ms)
+✔ allows ordinary edit README.md (0.242247ms)
+✔ allows ordinary edit tests/api/test_contract.py (0.182813ms)
+✔ allows ordinary edit backend/api/__init__.py.bak (0.047073ms)
+✔ allows ordinary edit mybackend/api/__init__.py (0.232272ms)
+✔ allows ordinary edit backend/risk/notes.md (0.063898ms)
+✔ allows ordinary edit backend/ai/client.py (0.11882ms)
+✔ leaves Read outside its declared scope (0.07918ms)
+✔ leaves Grep outside its declared scope (0.034664ms)
+✔ leaves Bash outside its declared scope (0.043538ms)
+✔ allows unrelated events and missing inputs (0.230183ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 135.618009
